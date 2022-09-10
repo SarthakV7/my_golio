@@ -1,0 +1,28 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@article{hcc_paper,
+  abbr={MedHyp},
+  bibtex_show={true},
+  title={Predicting mortality risk in patients suffering from hepatocellular carcinoma using machine learning.},
+  author={Sarthak Vajpayee, , and Akansha Mangal,},
+  abstract={Liver cancer is one of the most recurrent detected cancers in the world. The most common type of liver cancer is hepatocellular carcinoma (HCC) which begins in the cells called hepatocytes. It can be cured with surgery or transplant if detected early but is incurable in more advanced cases. The exact cause of HCC is unknown, but some factors like several demographic, risk factors, laboratory features, and underlying problems like hepatitis B and hepatitis C virus, autoimmune hepatitis, and heavy drinking increase the risk of death from HCC. In this paper, we have used some of these factors to predict their chances of survival of a patient diagnosed with HCC. For our study, we have used a publicly available dataset of 165 patients maintained and made available by a University Hospital in Portugal. The dataset contains 23 quantitative and 26 qualitative variables with 10.22% missing data. In our approach, we first standardized the data and then handled the missing values by comparing four imputation techniques: mean, median, KNN, and random-forest-based MICE. After imputation, ANOVA F-value and mutual information were used to select the relevant features. The prepared data was then studied on five classifiers: Logistic Regression, Support Vector Machine, Random-Forest, Bagging-Classifier, and Multilayer Perceptron (MLP). The MLP based classifier and random-forest-based MICE imputation technique and feature selection produced the best results with an accuracy of 90.02% and f1-score of 0.914. With these results, we can say that our machine-learning based approach can be used to test the performance with huge database and effectively be applied to predict mortality risk in patients and aid clinicians.},
+  journal={Medical Hypotheses, Elsevier. (under review),},
+  year={2021},
+  pdf={HCC_paper.pdf},
+  publisher={Elsevier,}
+}
+
+@article{covid19_paper,
+  abbr={preprint},
+  bibtex_show={true},
+  title={Deep learning for COVID-19 classification using cough audio.},
+  author={Sarthak Vajpayee, Madhurananda Pahar, and Thomas Niesler,},
+  abstract={In this paper, we present a deep-learning based COVID-19 cough classifier which can discriminate the coughing audio of COVID-19 positive users from COVID-19 non-positive (COVID-19 negative and healthy) users.  This classifier can be applied for an early screening of COVID-19 and since it requires cough audio that can be made available using a smartphone, it makes the classifier easier to use for self-diagnostics and eliminates the transmission of COVID-19 due to contact while testing. The dataset used in this study is a blend of two crowdsourced publicly available datasets collected and prepared by IISC-Bangalore and EPFL. IISC-Bangalore’s COSWARA dataset contains audio recordings of 1184 patients who are either healthy or have recovered from COVID-19 and 107 patients who are COVID-19 positive, whereas the processed EPFL’s COUGHVID dataset contains audio recordings of 1133 healthy patients and 397 patients who are  COVID-19  positive. The machine learning algorithms considered for the classification of the audio include multilayer perceptron (MLP), GRU-based recurrent neural network (RNN), convolutional neural network (CNN), OxfordNet (VGG-16), ResNet-50. Results show that the transfer learning based on ResNet-50 neural network architecture outperformed the other classifiers in predicting whether cough audio corresponds to a healthy patient or a COVID-19 positive patient and achieved specificity of 90%, sensitivity of 93%, AUC score of 0.96, and accuracy of 92.78%},
+  journal={Preprint (in progress),},
+  year={2021},
+  pdf={covid_19_cough.pdf},
+  publisher={Elsevier,}
+}

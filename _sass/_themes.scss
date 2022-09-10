@@ -1,0 +1,43 @@
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+
+:root {
+  --global-bg-color: #{$white-color};
+  --global-text-color: #{$black-color};
+  --global-theme-color: #{$carrot-color};
+  --global-hover-color: #{$light-carrot-color};
+  --global-footer-bg-color: #{$grey-color-dark};
+  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-link-color: #{$white-color};
+  --global-icon-color: #{$grey-color-dark};
+
+  .fa-sun {
+    display : none;
+  }
+  .fa-moon {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+}
+
+html[data-theme='dark'] {
+  --global-bg-color: #{$black-color};
+  --global-text-color: #{$grey-color-light};
+  --global-theme-color: #{$carrot-color};
+  --global-hover-color: #{$light-carrot-color};
+  --global-footer-bg-color: #{$light-carrot-color};
+  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-link-color: #{$grey-color};
+  --global-icon-color: white;
+
+  .fa-sun {
+    padding-left: 10px;
+    padding-top: 12px;
+    display : block;
+  }
+  .fa-moon {
+    display : none;
+  }
+}
